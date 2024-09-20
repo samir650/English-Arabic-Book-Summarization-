@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Summarization</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Summarization Pipeline</h1>
+        <form action="/summarize" method="post" enctype="multipart/form-data">
+            <label for="file">Upload your book (PDF):</label>
+            <input type="file" id="file" name="file" accept="application/pdf" required>
+            <button type="submit">Summarize</button>
+        </form>
+        <div class="instructions">
+            <p>Upload your PDF file and the summarization will be performed automatically. The summary will be generated as a downloadable PDF.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+Flask
+transformers
+sentence-transformers
+pdfplumber
+langdetect
+arabic-reshaper
+python-bidi
+stanza
+fpdf2
+torch
+PyMuPDF
+PyPDF2
+sentencepiece
